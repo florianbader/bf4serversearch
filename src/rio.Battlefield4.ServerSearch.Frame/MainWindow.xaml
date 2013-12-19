@@ -1,0 +1,8 @@
+﻿<Window x:Class="rio.Battlefield4.ServerSearch.Frame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="473" Width="1313">
+    <Grid>
+        
+    </Grid>
+</Window>
