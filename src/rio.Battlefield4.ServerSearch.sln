@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rio.Battlefield4.ServerSearch.Frame", "rio.Battlefield4.ServerSearch.Frame\rio.Battlefield4.ServerSearch.Frame.csproj", "{6401A125-C93B-49BA-AA38-FCEE63ED7BB2}"
-EndProject
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rio.Battlefield4.ServerSearch.Core", "rio.Battlefield4.ServerSearch.Core\rio.Battlefield4.ServerSearch.Core.csproj", "{1EAD09E9-19E2-41B8-8D38-E8CB857DF59F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rio.Battlefield4.ServerSearch.ConsoleRunner", "rio.Battlefield4.ServerSearch.Console\rio.Battlefield4.ServerSearch.ConsoleRunner.csproj", "{566D5472-93C7-41F6-A851-8D560FFD2118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rio.Battlefield4.ServerSearch.Wpf", "rio.Battlefield4.ServerSearch.Wpf\rio.Battlefield4.ServerSearch.Wpf.csproj", "{61A8E009-0830-4729-A36B-66125C3AD673}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6401A125-C93B-49BA-AA38-FCEE63ED7BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6401A125-C93B-49BA-AA38-FCEE63ED7BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6401A125-C93B-49BA-AA38-FCEE63ED7BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6401A125-C93B-49BA-AA38-FCEE63ED7BB2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1EAD09E9-19E2-41B8-8D38-E8CB857DF59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1EAD09E9-19E2-41B8-8D38-E8CB857DF59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EAD09E9-19E2-41B8-8D38-E8CB857DF59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +21,10 @@ Global
 		{566D5472-93C7-41F6-A851-8D560FFD2118}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{566D5472-93C7-41F6-A851-8D560FFD2118}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{566D5472-93C7-41F6-A851-8D560FFD2118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A8E009-0830-4729-A36B-66125C3AD673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A8E009-0830-4729-A36B-66125C3AD673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A8E009-0830-4729-A36B-66125C3AD673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A8E009-0830-4729-A36B-66125C3AD673}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
