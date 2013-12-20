@@ -42,6 +42,13 @@
 
         <DataGrid Margin="0 20 0 0"
                   IsReadOnly="True"
-                  ItemsSource="{Binding Servers}" />
+                  ItemsSource="{Binding Servers}">
+            <DataGrid.ItemContainerStyle>
+                <Style TargetType="DataGridRow">
+                    <EventSetter Event="MouseDoubleClick"
+                                 Handler="MouseDoubleClickEventHandler" />
+                </Style>
+            </DataGrid.ItemContainerStyle>
+        </DataGrid>
     </DockPanel>
 </Window>
